@@ -1,0 +1,27 @@
+{
+  "name": "redux-async-thunk",
+  "version": "1.0.0",
+  "description": "Demo of how to use async/await with redux thunk middleware",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d --progress --colors",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "redux",
+    "async",
+    "await",
+    "thunk",
+    "babel"
+  ],
+  "author": "Matt Granmoe",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
