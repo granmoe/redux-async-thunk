@@ -1,25 +1,25 @@
-module.exports = { // eslint-disable-line
-  devtool: 'eval-source-map',
-  entry: {
-    main: './src/main.jsx'
-  },
+const path = require('path')
+
+module.exports = {
+  entry: path.join(__dirname, 'index.js'),
   output: {
     filename: 'bundle.js'
   },
   resolve: {
     modulesDirectories: [
-      'src',
       'node_modules'
     ],
-    extensions: ['', '.json', '.js', '.jsx']
+    extensions: ['', '.js']
   },
   module: {
     loaders: [
       {
-        test: /\.jsx?/,
+        test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader'
+        loader: 'babel'
       }
     ]
   }
 }
+
+// devtool: 'eval-source-map',

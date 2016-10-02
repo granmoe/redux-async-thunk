@@ -1,2 +1,2 @@
-# redux-saga-clock
-A dead-simple example that shows a simple generator pattern for process flow via redux saga.
+# redux-async-thunk
+A simple demo of using an async/await function with redux thunk middleware
