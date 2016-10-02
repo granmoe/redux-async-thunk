@@ -4,7 +4,7 @@
   "description": "Demo of how to use async/await with redux thunk middleware",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d --progress --colors --display-error-details",
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js -d --progress --colors",
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [

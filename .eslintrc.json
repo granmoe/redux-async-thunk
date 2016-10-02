@@ -27,9 +27,6 @@
         }],
         "object-curly-spacing": ["error", "always"]
     },
-    "globals": {
-      "__dirname": false
-    },
     "env": {
         "browser": true,
         "es6": true
